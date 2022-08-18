@@ -1,0 +1,15 @@
+@import 'resets';
+@import 'colors';
+@import 'fonts';
+
+$fontWeight: ("normal": 400, "thin": 200, "bold": 800);
+
+body {
+    font: {
+        style: normal;
+        size: 16px; 
+        family: 'Roboto', sans-serif;
+        weight: normal;
+    };
+    background-color: $pureWhite;
+}

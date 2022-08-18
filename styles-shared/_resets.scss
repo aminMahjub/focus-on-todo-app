@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+}
+
+input,
+button,
+input:focus {
+    border: 0px;
+    border-radius: 0px;
+}
+
+div[class$="-icon"],
+button {
+    cursor: pointer;
+} 
